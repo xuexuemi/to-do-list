@@ -1,0 +1,50 @@
+<%- include('partials/header') %>
+
+    <div class="container">
+      <div class="row h-100 justify-content-center">
+        <div class="col-4 px-5 py-2 m-auto text-center content">
+          
+
+          <h1 class="py-3">todolist</h1>
+
+
+          <!-- <div class="row">
+            <form action="/register" method="post">
+              <input class="form-control p-2 mt-4" type="hidden" name="username" value="guest1234">
+                <input class="form-control p-2 mt-3" type="hidden" name="password" value="guest123456">
+              <div class="row mx-0">
+                <button type="submit" class="btn btn-secondary btn-block">Log in as guest</button>
+              </div>
+            </form>
+          </div> -->
+
+          <div class="row mx-0 mt-1">
+            <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+              <i class="fab fa-google"></i>
+              <p class="text-center mb-0">Log in with Google</p>
+            </a>
+          </div>
+
+          <div class="row">
+            <p class="text-center mt-2 bottom-line"> or </p>
+          </div>
+
+          <div class="row bottom-line">
+            <form action="/" method="post">
+                <input class="form-control p-2 mt-4" type="email" name="username" placeholder="Email address">
+                <input class="form-control p-2 mt-3" type="password" name="password" placeholder="Password">
+              <div class="row mx-0">
+                <button type="submit" class="btn btn-primary btn-block my-3">Log in</button>
+              </div>
+            </form>
+          </div>
+
+          <p class="mt-3">
+          Don't have an account?  
+          <a class="text-info" href="/register">Sign up</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+<%- include('partials/footer') %>
