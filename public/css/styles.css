@@ -3,6 +3,10 @@ body {
   height: 100%;
 }
 
+h1,h2,h3 {
+  font-family: 'Redressed';
+}
+
 .content {
   background-color: white;
   box-shadow: 3px 1px 10px #b3b3b3;
@@ -13,7 +17,7 @@ body {
 }
 
 .item-label {
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 input:checked+label {
@@ -36,5 +40,11 @@ input:checked+label {
 }
 
 .btn-new-item {
-  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  padding: 6px 0px;
+  border-width: 1px;
+  border-radius: 18px;
+  text-align: center;
+  font-size: 18px;
 }
