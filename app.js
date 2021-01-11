@@ -85,7 +85,7 @@ passport.use(
     {
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
-      callbackURL: "https://radiant-anchorage-50325.herokuapp.com/auth/google/todolist",
+      callbackURL: "/auth/google/todolist",
       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
     },
     function (accessToken, refreshToken, profile, cb) {
